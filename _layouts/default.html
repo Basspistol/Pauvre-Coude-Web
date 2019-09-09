@@ -48,6 +48,9 @@ _________                  .___
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <link rel="icon" type="image/png" href="/touch-icon.png" sizes="192x192" />
     <link rel="shortcut icon" href="/siteicon.png" type="image/png" />
+    {% if page.url == '/contact-success/' %}
+    <meta http-equiv="refresh" content="5;url=https://pauvrecoude.bandcamp.com">
+    {% endif %}
     {% seo %}
     {% feed_meta %}
     {% include seo.html %}
